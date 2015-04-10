@@ -12,6 +12,7 @@ public class AppTest
 	@Test
     public void testApp()
     {
-        assertTrue( true );
+		Datos datos=new Datos();
+		assertTrue(datos.getCadena().substring(0, 6).equals("cadena"));
     }
 }
